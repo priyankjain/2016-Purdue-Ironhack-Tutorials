@@ -1,11 +1,12 @@
 # Google Maps Tutorial  
   
 
-  This tutorial shows you how to add a simple Google map to a web page. It suits people with beginner or intermediate knowledge of HTML and CSS, and a little knowledge of JavaScript. For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
----
+####  This tutorial shows you how to add a simple Google map to a web page. We'll create a map marking the location of Purdue University.For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
+  
+  
 ### 1. Create an HTML page
 
-   Create a html containing simple html with a `div` for holding the map. We give that `div` id of `map`. We also specify width, height and background color for `#map` element.
+   Create a html containing simple with a `div` element for holding the map. We give the element's id attribute a value of `map`. We also specify width, height and background color for `#map` element.
 
 ```html
 <!DOCTYPE html>
@@ -70,9 +71,9 @@ In line 2, we create the Map object provided by Google Maps API. The constructor
 +	The reference to HTML element where the map is to be displayed  
 +	A Javascript object reference specifying various properties like center of the map, background color, initial zoom level and [so on](https://developers.google.com/maps/documentation/javascript/reference#MapOptions)  
 
-### 5. Add a marker to point Purdue University's Location
+### 5. Add a marker to point at Purdue University's Location
 
-Now that we have created a map and displayed it, let's highlight Purdue University's location on the map. Highlighting is achieved through `Marker` object in Google Maps API. Let's add some more code to the `initMap` to show the marker, making it look like:
+Now that we have created a map and displayed it, let's highlight Purdue University's location on the map. Highlighting is achieved through `Marker` object in Google Maps API. Let's add some code to the `initMap` function to show the marker, making it look like:
 
 ```html
 <script type="text/javascript">
@@ -90,14 +91,14 @@ Now that we have created a map and displayed it, let's highlight Purdue Universi
 </script>
 ```
 We explain the newly introduced code:  
-+ Line 1: Create the Marker object from the Google Maps API, passing the following three arguments to the constructor  
-+ Line 2: The first argument is the position of the location to be highlighted, This is same as the location we used in constructing the Map object.  
-+ Line 3: The second argument is the map object reference where the marker is to be shown  
-+ Line 4: The third argumemnt to the constructor is the title to be shown for the marked location  
++ Line 1: Create the Marker object, passing the following three arguments to the constructor  
++ Line 2: The first argument is the position of the location to be highlighted, this is same as the location we used in constructing the Map object.  
++ Line 3: The second argument is the map object reference on which the marker is to be shown  
++ Line 4: The third argument is the title to be shown on hovering over the marked location  
 
 ### 6. Putting it all together
 
-This is how the final code file looks like
+The final code file looks like below:
 ```html
 <!DOCTYPE html>
 <html>
@@ -134,4 +135,4 @@ This is how the final code file looks like
 </html>
 ```
 
-Here is the code in action [Purdue Ironhacks Google Maps Demo](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/Google-Maps-Demo.html) 
+To see the code in action: [Purdue Ironhacks Google Maps Demo](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/Google-Maps-Demo.html) 
