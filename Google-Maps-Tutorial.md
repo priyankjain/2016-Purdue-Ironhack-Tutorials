@@ -1,6 +1,6 @@
-# Google Maps Tutorial
+# Google Maps Tutorial  
      
-   This tutorial shows you how to add a simple Google map to a web page. It suits people with beginner or intermediate knowledge of HTML and CSS, and a little knowledge of JavaScript. For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
+This tutorial shows you how to add a simple Google map to a web page. It suits people with beginner or intermediate knowledge of HTML and CSS, and a little knowledge of JavaScript. For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
 ---
 ### 1. Create an HTML page
 
@@ -64,10 +64,10 @@ This function name is part of the script URL in step 3. Here is how we show the 
 </script>
 ```
 
-In the javascript function `initmap`, in line 1, we store reference to the HTML `div` element where the map will be displayed.
-In line 2, we create the Map object provided by Google Maps API. The constructor of this object takes two parameters:
-	+	The reference to HTML element where the map is to be displayed
-	+	A Javascript object reference specifying various properties like center of the map, background color, initial zoom level and [so on](https://developers.google.com/maps/documentation/javascript/reference#MapOptions)
+In the javascript function `initmap`, in line 1, we store reference to the HTML `div` element where the map will be displayed.  
+In line 2, we create the Map object provided by Google Maps API. The constructor of this object takes two parameters:  
++	The reference to HTML element where the map is to be displayed  
++	A Javascript object reference specifying various properties like center of the map, background color, initial zoom level and [so on](https://developers.google.com/maps/documentation/javascript/reference#MapOptions)  
 
 ### 5. Add a marker to point Purdue University's Location
 
@@ -88,11 +88,11 @@ Now that we have created a map and displayed it, let's highlight Purdue Universi
 	}
 </script>
 ```
-We explain the newly introduced code:
-	+ Line 1: Create the Marker object from the Google Maps API, passing the following three arguments to the constructor
-	+ Line 2: The first argument is the position of the location to be highlighted, This is same as the location we used in constructing the Map object.
-	+ Line 3: The second argument is the map object reference where the marker is to be shown
-	+ Line 4: The third argumemnt to the constructor is the title to be shown for the marked location
+We explain the newly introduced code:  
++ Line 1: Create the Marker object from the Google Maps API, passing the following three arguments to the constructor  
++ Line 2: The first argument is the position of the location to be highlighted, This is same as the location we used in constructing the Map object.  
++ Line 3: The second argument is the map object reference where the marker is to be shown  
++ Line 4: The third argumemnt to the constructor is the title to be shown for the marked location  
 
 ### 6. Putting it all together
 
