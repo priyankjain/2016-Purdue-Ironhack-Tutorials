@@ -36,11 +36,11 @@
 
 ### 3. Load Google Maps Scripts
 
-	To load google maps in your webpage, include the following script tag in your webpage.
+To load google maps in your webpage, include the following script tag in your webpage.
 
-	```html
-	<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=**YOUR_API_KEY**&callback=initMap">
-    </script>
-	```
-	Replace YOUR_API_KEY with your API key obtained from step 2.
+```html
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=**YOUR_API_KEY**&callback=initMap">
+</script>
+```
+Replace YOUR_API_KEY with your API key obtained from step 2.
