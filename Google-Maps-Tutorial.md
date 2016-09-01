@@ -1,7 +1,7 @@
-# Google Maps Tutorial  
-  
+# Google Maps Tutorial    
 
-####  This tutorial shows you how to add a simple Google map to a web page. We'll create a map marking the location of Purdue University.For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
+    
+This tutorial shows you how to add a simple Google map to a web page. We'll create a map marking the location of Purdue University.For an advanced guide to creating maps, read the [Google Maps Javascript API developer's guide](https://developers.google.com/maps/documentation/javascript/tutorial).
   
   
 ### 1. Create an HTML page

@@ -1,7 +1,7 @@
-# Charts With C3.js Tutorial  
-  
-
-#### We would go through the steps for displaying data in chart form using C3.js. C3.js is a D3-based reusable chart library. D3.js is a library for manipulating and displaying data in javascript as charts. D3.js has a bit of a learning curve and requires many lines of code for displaying a chart. c3.js is a library build on top of D3.js so that we can draw charts in easily. Let's get started for some visualization!
+# Charts With C3.js Tutorial     
+    
+    
+We would go through the steps for displaying data in chart form using C3.js. C3.js is a D3-based reusable chart library. D3.js is a library for manipulating and displaying data in javascript as charts. D3.js has a bit of a learning curve and requires many lines of code for displaying a chart. c3.js is a library build on top of D3.js so that we can draw charts in easily. Let's get started for some visualization!
 
 ### 1. Setup c3.js and d3.js  
   

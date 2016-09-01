@@ -15,9 +15,11 @@ If you don't already have an account, please sign up at [Github](https://github.
   
   Linux Users should install git to be able to interact with Github repositories.   
   To install git from Linux terminal, Fedora Users should use
->$ sudo apt-get install git-all
+>$ sudo yum install git-all
 
   For Debian-based distribution like Ubuntu, use
+>$ sudo apt-get install git-all
+
   Windows users can download Github for Desktop [here](https://desktop.github.com/)
 
   Mac users can download Github for Mac [here](https://git-scm.com/download/mac)
@@ -28,8 +30,10 @@ If you don't already have an account, please sign up at [Github](https://github.
 
 ### 6. Clone a repository
 	
-  Every participant of Purdue Ironhacks is supposed to clone a repository to his/her computer. Cloning a repository is similar to downloading an entire project source code online, with the addition that all git objects are downloaed which saves the history of edits to the source code among other things. You would be given a link to clone from, the link is specific to each participant. For the purpose of this tutorial we would clone this [repo](https://github.com/priyankjain/image-grabber)  
-  Open Github terminal on your machine (This is the terminal for linux users. Other users can click on the Github Shell icon on Desktop)
+  Every participant of Purdue Ironhacks is supposed to clone a repository to his/her computer. Cloning a repository is similar to downloading an entire project source code online, with the addition that all git objects are downloaed which saves the history of edits to the source code among other things. You would be given a link to clone from, the link is specific to each participant. For the purpose of this tutorial we would clone this [repo](https://github.com/priyankjain/image-grabber).   
+
+     
+  Open Github terminal on your machine (This is the terminal for linux users. Other users can click on the Github Shell icon on Desktop)  
   Clone the repo using the following command:
 > git clone https://github.com/priyankjain/image-grabber.git
 
@@ -38,7 +42,7 @@ If you don't already have an account, please sign up at [Github](https://github.
 ### 7. Configure your name and email address
 
   Execute following commands on github terminal, so that github knows who you are
-> git config --global user.name "**YOUR NAME**"
+> git config --global user.name "**YOUR NAME**"  
 > git config --global user.email "**YOUR EMAIL**" 
 
 ### 8. You're all set to start coding
@@ -48,11 +52,11 @@ If you don't already have an account, please sign up at [Github](https://github.
 ### 9. Upload your code to Github.com
 
   After you have done changes to the code, you need to upload the code to Github.com so we can grade you. You can execute this step multiple times, but make sure you do this step once just before submission so that we have the latest copy of your code.
-> git add * 
-> git commit -m "Short message describing the changes you made"
-> git push origin master   
+> git add *   
+> git commit -m "Short message describing the changes you made"  
+> git push origin master     
 
-  First command asks git to include all code changes in your repository for the next commit.
-  Second command commits the changes and finalizes them to your _LOCAL_ repository.
-  Third command uploads the code the _remote_ repository on Github.com, from where we can access you code to grade you.
+  First command asks git to include all code changes in your repository for the next commit.  
+  Second command commits the changes and finalizes them to your _LOCAL_ repository.  
+  Third command uploads the code the _remote_ repository on Github.com, from where we can access you code to grade you.  
 
