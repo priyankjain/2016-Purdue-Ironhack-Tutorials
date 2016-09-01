@@ -20,7 +20,7 @@ Javascript is an object-oriented programming language to create interactive effe
 
 
 jQuery is the most widely used Javascript library, using jQuery would greatly speed up your Javascript programming.
-<a href="http://www.w3schools.com/jquery/" target="_blank">jQuery Tutorial</a>http://www.w3schools.com/jquery/  
+<a href="http://www.w3schools.com/jquery/" target="_blank">jQuery Tutorial</a>
 
 
 ### Chart Libraries
