@@ -46,20 +46,4 @@
   >});
   >```
 
-  This will show us a line chart:
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<link src="../css/c3.css" rel="stylesheet" type="text/css">
-<script src="/js/c3.js"></script>
-<h3>Purdue Ironhacks Charts with C3.js Tutorial</h3>
-<div id="chart"></div>
-<script type="text/javascript">
-	var chart = c3.generate({
-		bindto: '#chart',
-		data: {
-			columns: [
-				['data1', 30, 200, 100, 400, 150, 250],
-					['data2', 50, 20, 10, 40, 15, 25],
-			]
-		}
-	});
-</script>    
+  This will show us a line chart as shown [here](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/Charts-with-c3js-demo-1.html)
