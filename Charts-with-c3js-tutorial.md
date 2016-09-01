@@ -74,7 +74,7 @@
   >			x: {
   >				label: {
   >					text: 'X Label', //Label of X axis
-  >					position: 'outer-middle' //Position of X axis label 
+  >					position: 'outer-right' //Position of X axis label 
   >				}
   >			},
   >			y: {
@@ -110,16 +110,16 @@
   >			x: {
   >				label: {
   >					text: 'X Label',
-  >					position: 'outer-middle'
-  >				},
-  >				tick: {
-  >					format: d3.format("$,") // Add formatting along Y-axes
+  >					position: 'outer-right'
   >				}
   >			},
   >			y: {
   >				label: {
   >					text: 'Y Label',
   >					position: 'outer-middle'
+  >				},
+  >				tick: {
+  >					format: d3.format("$,") // Add formatting along Y-axes
   >				}
   >			}
   >		}
@@ -162,15 +162,15 @@
 	   				label: {
 	   					text: 'X Label',
 	   					position: 'outer-right'
-	   				},
-	   				tick: {
-	   					format: d3.format("$,")
-	   				}
+	   				}	   				
 	   			},
 	   			y: {
 	   				label: {
 	   					text: 'Y Label',
 	   					position: 'outer-middle'
+	   				},
+	   				tick: {
+	   					format: d3.format("$,")
 	   				}
 	   			}
    			}
