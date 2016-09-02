@@ -12,6 +12,7 @@ HTML is Hyper Text Markup Language which is used to describe web pages.
 
 CSS stands for Cascading Style Sheets and is a language that describes the style of an HTML document.
 <a href="http://www.w3schools.com/css/" target="_blank">CSS Tutorial</a>    
+Writing CSS code with hand is tedious, so generally CSS frameworks like [bootstrap](http://getbootstrap.com/) are used.
 
 ### Javascript
 
@@ -41,3 +42,6 @@ For an advanced tutorial, <a href="https://developers.google.com/maps/documentat
 
 You'll be required to use Github.com for submitting your code to our system. <a href="Github-Tutorial.md" target="_blank">Here</a> is our tutorial on getting setup with Github.com for this hack. You can learn advanced git <a href="https://www.atlassian.com/git/tutorials/what-is-git" target="_blank">here</a>.   
 
+### Tutorial Project    
+
+We have made a complete tutorial project along the lines of the problem statement. You can find the tutorial [here](Tutorial Project.md) and demo [here](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html).
