@@ -240,7 +240,7 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 	>	    document.getElementById("website").innerHTML = "<b>Website</b>: <em>Not available</em>";
 	>	document.getElementById("open-status").innerHTML = "<b>Market Status</b>: <em>" + contain(washedData[key][4], day()).capitalizeFirstLetter() + "</em>";
 	>}
-	```    
+	>```    
 
     
 9. Keep improving
