@@ -6,7 +6,7 @@
 
 ### Data.gov   
    
-   [Data.gov](https://www.data.gov) is a repository for federal government information, made available to the public. All of the data is available in machine readable form, so you can easily retrieve data from data.gov using javascript. Data.gov has datasets related to all aspects of government like consumer complaints, international trade, zip-code, hotels, restaurants, etc. You can search your dataset of interest [here](http://catalog.data.gov/dataset)   
+   [Data.gov](https://www.data.gov) is a repository for federal government information, made available to the public. All of the data is available in machine readable form, so you can easily retrieve data from data.gov using javascript. Data.gov has datasets related to all aspects of government like consumer complaints, international trade, zip-code, hotels, restaurants, etc. You can search your dataset of interest [here](http://catalog.data.gov/dataset).   
 
 
 ### Open Indy Data Portal   
