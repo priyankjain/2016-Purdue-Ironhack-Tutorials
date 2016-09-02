@@ -243,7 +243,9 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 	>```    
 
     
-9. Keep improving
+9. Keep improving   
+
+
    Once the solution is completed, try to asses it with the parameters that were given and improve it as much as you can. Test it out with different test cases and on different browsers.
 
    Good luck!
