@@ -165,7 +165,9 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 	>```
 
 
-7. Start implementing each item separately
+7. Start implementing each item separately   
+
+
    Start implementing each piece of the solution that requires an external library or API separately, so there are no dependencies problems.
 
    We personalize the Google Maps to show the farmer markets  in the area (Google Map API)
@@ -222,7 +224,9 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 	>RadarChart.draw("#chart", d, mycfg);
 	>```
 
-8. Integrate them together
+8. Integrate them together    
+
+
    Once all the items from your solution are running, the next step is integrate them together.
 
    Add a listener for each mark on the map. When one is clicked, the javascript will track the click, get the id of that mark and reset the information panel using that id:
@@ -236,8 +240,9 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 	>	    document.getElementById("website").innerHTML = "<b>Website</b>: <em>Not available</em>";
 	>	document.getElementById("open-status").innerHTML = "<b>Market Status</b>: <em>" + contain(washedData[key][4], day()).capitalizeFirstLetter() + "</em>";
 	>}
-	```
+	```    
 
+    
 9. Keep improving
    Once the solution is completed, try to asses it with the parameters that were given and improve it as much as you can. Test it out with different test cases and on different browsers.
 
