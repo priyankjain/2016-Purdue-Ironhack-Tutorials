@@ -2,13 +2,13 @@
 ### Introduction   
 
 
-This is a tutorial project for 2016 Purdue Ironhack. **Please notice that the example topic here is not the same as the one given to you!**
+This is a tutorial project for 2016 Purdue Ironhack. _Please notice that the example topic here is not the same as the one given to you!_
 
-You may check it out as a reference for your own project. The Demo site for the project is [here](http://test.rcodi.charlessong.me/)
+The demo site for the project is [here](2016-Purdue-Ironhacks-Tutorial-Project.html). You may check it out as a reference for your own project. 
 
 Find more information about Open Innovation and our Research Center of Open Digital Innovation at Purdue University [here](https://www.purdue.edu/opendigital/)
 
-[Git clone](Github-Tutorial.md) this repository and get started with Purdue Ironhacks 2016
+[Git clone](Github-Tutorial.md) this repository and get started with Purdue Ironhacks 2016!
 
 ### Problem Statement   
    
@@ -18,12 +18,12 @@ _**I want my vegetables to be cheap and fresh**_
 
 We’re all savvy consumers and need to know when to get the cheapest vegetables and products from local vendors. With the ever changing weather we need to know when we can get the best and cheapest products throughout the seasons.
 
-Imagine you are trying to figure out when and where you can get the cheapest and best local product from markets in West Lafayette/Lafayette and in the Greater Lafayette Area.
+Imagine you are trying to figure out when and where you can get the cheapest and best local products from markets in West Lafayette/Lafayette and in the Greater Lafayette Area.
 
 ### Task   
 
 
-Develop a website with a mashup that combines [Open Weather Map Data](http://openweathermap.org/) and local farmer’s markets data.   
+Develop a website with a mashup that combines [Open Weather Map Data](http://openweathermap.org/) and [local farmer’s markets data](http://catalog.data.gov/dataset/farmers-markets-2015).   
 
 You are also encouraged to look at other types of market data such as Walmart, Pay-Less, Aldi, Meijer, etc. to compare regular prices or somehow combine freshness and cheapness – think what would be beneficial to the consumer!   
 
@@ -32,13 +32,13 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
 ### Mandatory Requirements
 
-+ The application uses the mandatory dataset: Climate Data Online
-+ The application uses at least one more datasets from Data.gov that were released by Indiana or Lafayette, e.t.c.
-+ The application is written in JavaScript language
-+ The website integrates a mashup
-+ The code submission is complemented with a readme file,
-+ Does the readme have: Keywords, brief description, a unique identifier of the author, browser within which it was tested (has to be Chrome)
-+ The application uses one of the libraries suggested (arbor.js, D3.Js, sigmajs, other libraries)    
++ The application should use the mandatory dataset: Open Weather Map
++ The application should use at least one more dataset from Data.gov that were released by Indiana or Lafayette
++ The application should be written in JavaScript language
++ The website should integrate a mashup
++ The code submission should be complemented with a README file
++ README file should have: Keywords, brief description, a unique identifier of the author, browser within which it was tested (has to be Chrome atleast)
++ The application should use a visualization library (arbor.js, D3.Js, sigmajs, other libraries)    
 
 
 ### Evaluation Criteria   
@@ -64,7 +64,7 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
 ### Development Process
 
-1. Explore the datasets that I am enforced to use
+1. Explore the datasets
 
    Spend some time exploring what is the structure and how the datasets are organized in order to know the limits of the datasets.
 
@@ -99,10 +99,10 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
    Using the repository that we provide, connect to Github and upload README.md file with basic information:,
 
-> Problem addressed: What’s for dinner in Chicago?    
-> Author: Author Name (authorname@gmail.com)   
-> Description of the solution: We provide real-time data about which farm market is the best place to buy today based on your position (IP based) and the main features of each farm market.   
-> Keywords: Farmer market, Rating, Chicago, Real-time, Position  
+	> Problem addressed: What’s for dinner in Chicago?    
+	> Author: Author Name (authorname@gmail.com)   
+	> Description of the solution: We provide real-time data about which farm market is the best place to buy today based on your position (IP based) and the main features of each farm market.   
+	> Keywords: Farmer market, Rating, Chicago, Real-time, Position  
 
    Go through [this tutorial](Github-Tutorial.md) to learn basic github commands
 
@@ -118,51 +118,51 @@ The website should optimize the consumers’ choice of the most cost-efficient v
    We show how to get [weather data](http://openweathermap.org/current) using Javascript.
    Use a xmlHttpRequest in your javascript to request data from the API.
 
->```javascript
->var xmlhttp = new XMLHttpRequest();
->var url = "http://api.openweathermap.org/data/2.5/weather?q=chicago&appid=6aa0bdb1f586c5630d60b6237dfce45c";
->xmlhttp.open("GET", url, true);
->xmlhttp.send();
->xmlhttp.onreadystatechange = function() {
->if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
->var myArr = xmlhttp.responseText;
->var text = myArr;
->}
->};
->```
+	>```javascript
+	>var xmlhttp = new XMLHttpRequest();
+	>var url = "http://api.openweathermap.org/data/2.5/weather?q=chicago&appid=6aa0bdb1f586c5630d60b6237dfce45c";
+	>xmlhttp.open("GET", url, true);
+	>xmlhttp.send();
+	>xmlhttp.onreadystatechange = function() {
+	>if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+	>var myArr = xmlhttp.responseText;
+	>var text = myArr;
+	>}
+	>};
+	>```
 
 
    We can find from the API description that this API will response in JSON. So we convert result data to JSON.
->```javascript
->var json = JSON.parse(text);
->```
+	>```javascript
+	>var json = JSON.parse(text);
+	>```
 
-   After we get the original json data, we process it for further usage:
->```javascript
->document.getElementById("weather").innerHTML = "Today the weather is <em><b>" + json.weather[0].main + "</b></em>";
->```
+	   After we get the original json data, we process it for further usage:
+	>```javascript
+	>document.getElementById("weather").innerHTML = "Today the weather is <em><b>" + json.weather[0].main + "</b></em>";
+	>```
 
    We then get the data for the location of each farm market from [http://catalog.data.gov/dataset/farmers-markets-2015](http://catalog.data.gov/dataset/farmers-markets-2015) and process it.
 
    After we get the markets data washed, we can develop some functions to analyze it and get scores for rating. In the tutorial case, we use Math.random method to fake rating scores. You should develop your own algorithm in this part:
->```javascript
->for (i = 0; i<9; i++) {
->    array[i] = Math.random();
->}
->d = [
->    [
->        {axis:"Open hours",value:array[0]},
->        {axis:"Availability",value:array[1]},
->        {axis:"Freshness",value:array[2]},
->        {axis:"Distance",value:array[3]},
->        {axis:"Prices",value:array[4]},
->        {axis:"Customer ratings",value:array[5]},
->        {axis:"Personal preference",value:array[6]},
->        {axis:"Other",value:array[7]},
->        {axis:"service",value:array[8]}
->    ]
->];
->```
+	>```javascript
+	>for (i = 0; i<9; i++) {
+	>    array[i] = Math.random();
+	>}
+	>d = [
+	>    [
+	>        {axis:"Open hours",value:array[0]},
+	>        {axis:"Availability",value:array[1]},
+	>        {axis:"Freshness",value:array[2]},
+	>        {axis:"Distance",value:array[3]},
+	>        {axis:"Prices",value:array[4]},
+	>        {axis:"Customer ratings",value:array[5]},
+	>        {axis:"Personal preference",value:array[6]},
+	>        {axis:"Other",value:array[7]},
+	>        {axis:"service",value:array[8]}
+	>    ]
+	>];
+	>```
 
 
 7. Start implementing each item separately
@@ -171,72 +171,72 @@ The website should optimize the consumers’ choice of the most cost-efficient v
    We personalize the Google Maps to show the farmer markets  in the area (Google Map API)
 
    As for the Google Maps API, we should create map, marker, infoWindow as objects:
->```javascript
->map = new google.maps.Map(document.getElementById('map'), {
->    center: {lat: 41.85081542, lng: -87.69123528},
->    zoom: 12
->});
->//create a marker at the centre
->marker = new google.maps.Marker({
->    position: {lat: 41.85081542, lng: -87.69123528},
->    map: map,
->    title: 'Chicago'
->});
->
->infowindow = new google.maps.InfoWindow({
->                        content: ""
->                    });
->google.maps.event.addListener(marker, 'click', function() {
->    infowindow.setContent("Chicago City");
->                        infowindow.open(map, marker);
->                    });
->```
+	>```javascript
+	>map = new google.maps.Map(document.getElementById('map'), {
+	>    center: {lat: 41.85081542, lng: -87.69123528},
+	>    zoom: 12
+	>});
+	>//create a marker at the centre
+	>marker = new google.maps.Marker({
+	>    position: {lat: 41.85081542, lng: -87.69123528},
+	>    map: map,
+	>    title: 'Chicago'
+	>});
+	>
+	>infowindow = new google.maps.InfoWindow({
+	>                        content: ""
+	>                    });
+	>google.maps.event.addListener(marker, 'click', function() {
+	>    infowindow.setContent("Chicago City");
+	>                        infowindow.open(map, marker);
+	>                    });
+	>```
 
    Then we can add location data of different markets on the map:
->```javascript
->$.each(results, function(key, value) {
->
->    markers[key] = new google.maps.Marker({
->        position: {lat: Number(washedData[key][0]), lng: Number(washedData[key][1])},
->        map: map,
->    });
->    google.maps.event.addListener(markers[key], 'click', function() {
->        //if another window is open, close it
->        if( prev_infowindow ) {
->            prev_infowindow.close();
->        }
->```
+	>```javascript
+	>$.each(results, function(key, value) {
+	>
+	>    markers[key] = new google.maps.Marker({
+	>        position: {lat: Number(washedData[key][0]), lng: Number(washedData[key][1])},
+	>        map: map,
+	>    });
+	>    google.maps.event.addListener(markers[key], 'click', function() {
+	>        //if another window is open, close it
+	>        if( prev_infowindow ) {
+	>            prev_infowindow.close();
+	>        }
+	>```
 
    Using the data for each farm market we display a radar chart (D3.js)
->```javascript
->mycfg = {
->  w: w,
->  h: h,
->  maxValue: 0.6,
->  levels: 6,
->  ExtraWidthX: 200
->}
->
->//Call function to draw the Radar chart
->//Will expect that data is in %'s
->RadarChart.draw("#chart", d, mycfg);
->```
+	>```javascript
+	>mycfg = {
+	>  w: w,
+	>  h: h,
+	>  maxValue: 0.6,
+	>  levels: 6,
+	>  ExtraWidthX: 200
+	>}
+	>
+	>//Call function to draw the Radar chart
+	>//Will expect that data is in %'s
+	>RadarChart.draw("#chart", d, mycfg);
+	>```
 
 8. Integrate them together
    Once all the items from your solution are running, the next step is integrate them together.
 
    Add a listener for each mark on the map. When one is clicked, the javascript will track the click, get the id of that mark and reset the information panel using that id:
->```javascript
->google.maps.event.addListener(markers[key], 'click', function() {
->	document.getElementById("market-name").innerHTML = "<b>Market Name</b>: " + washedData[key][2] + "</em>";
->	document.getElementById("street-name").innerHTML = "<b>Address</b>: <em>" + washedData[key][3] + "</em>";
->	if(washedData[key][9])
->	    document.getElementById("website").innerHTML = "<b>Website</b>: <em><a href=\"" + washedData[key][9] + "\">" + washedData[key][9] + "</a></em>";
->	else
->	    document.getElementById("website").innerHTML = "<b>Website</b>: <em>Not available</em>";
->	document.getElementById("open-status").innerHTML = "<b>Market Status</b>: <em>" + contain(washedData[key][4], day()).capitalizeFirstLetter() + "</em>";
->}
-```
+	>```javascript
+	>google.maps.event.addListener(markers[key], 'click', function() {
+	>	document.getElementById("market-name").innerHTML = "<b>Market Name</b>: " + washedData[key][2] + "</em>";
+	>	document.getElementById("street-name").innerHTML = "<b>Address</b>: <em>" + washedData[key][3] + "</em>";
+	>	if(washedData[key][9])
+	>	    document.getElementById("website").innerHTML = "<b>Website</b>: <em><a href=\"" + washedData[key][9] + "\">" + washedData[key][9] + "</a></em>";
+	>	else
+	>	    document.getElementById("website").innerHTML = "<b>Website</b>: <em>Not available</em>";
+	>	document.getElementById("open-status").innerHTML = "<b>Market Status</b>: <em>" + contain(washedData[key][4], day()).capitalizeFirstLetter() + "</em>";
+	>}
+	```
 
 9. Keep improving
    Once the solution is completed, try to asses it with the parameters that were given and improve it as much as you can. Test it out with different test cases and on different browsers.
