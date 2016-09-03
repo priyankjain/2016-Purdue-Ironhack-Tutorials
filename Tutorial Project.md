@@ -4,7 +4,7 @@
 
 This is a tutorial project for 2016 Purdue Ironhack. _Please notice that the example topic here is not the same as the one given to you!_
 
-The demo site for the project is [here](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html). You may check it out as a reference for your own project. 
+The demo site for the project is [here](http://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html). You may check it out as a reference for your own project. 
 
 Find more information about Open Innovation and our Research Center of Open Digital Innovation at Purdue University [here](https://www.purdue.edu/opendigital/)
 
@@ -248,5 +248,5 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
    Once the solution is completed, try to asses it with the parameters that were given and improve it as much as you can. Test it out with different test cases and on different browsers.
 
-   You can find a working demo of this tutorial [here](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html).
+   You can find a working demo of this tutorial [here](http://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html).
    Good luck!
