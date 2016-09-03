@@ -1,7 +1,6 @@
 /**
-2015-09-07 by Charles Song
-This is the javascript file for the Google map.
-The position for the map and chart will be changed in the final project. Generally the chart will show up once you click the lable in the map.
+Author: Priyank Jain
+This is the core js logic for adding markes and radarchart for Purdue 2016 Ironhacks Tutorials
 **/
 
 //variables for map and marks
@@ -182,8 +181,8 @@ function initMap() {
                     });
                 }
             });
+        
         });
-
 
         }
     };
