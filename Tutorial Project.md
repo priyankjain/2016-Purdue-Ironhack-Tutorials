@@ -33,11 +33,11 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 ### Mandatory Requirements
 
 + The application should use the mandatory dataset: Open Weather Map
-+ The application should use at least one more dataset from Data.gov that were released by Indiana or Lafayette
++ The application should use at least one more dataset from [Data.gov](https://www.data.gov) or [Open Indy Data Portal](http://data.indy.gov/) that were released by the State of Indiana
 + The application should be written in JavaScript language
-+ The website should integrate a mashup
++ The website should integrate a mashup (A mashup is a web page or application created by combining data or functionality from different sources)
 + The code submission should be complemented with a README file
-+ README file should have: Keywords, brief description, a unique identifier of the author, browser within which it was tested (has to be Chrome atleast)
++ README file should have: Keywords, brief description, a unique identifier of the author, browser within which it was tested
 + The application should use a visualization library (arbor.js, D3.Js, sigmajs, other libraries)    
 
 

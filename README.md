@@ -38,10 +38,15 @@ Here are some useful ones:
 Purdue Ironhacks will involve playing with location data, so Google Maps is a recommended feature to have in your project. <a href="./Google-Maps-Tutorial.md" target="_blank">Click here</a> for a quick tutorial on Google Maps API.   
 For an advanced tutorial, <a href="https://developers.google.com/maps/documentation/javascript/tutorials/" target="_blank">click here</a>.
 
+### Datasets   
+
+   
+The rules require you to use one mandatory dataset [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web) and one dataset from either [Data.gov](https://www.data.gov) or [Open Indy Data Portal](http://data.indy.gov/). You can read more about these datasets here [Datasets.md]   
+
 ### Github
 
 You'll be required to use Github.com for submitting your code to our system. <a href="Github-Tutorial.md" target="_blank">Here</a> is our tutorial on getting setup with Github.com for this hack. You can learn advanced git <a href="https://www.atlassian.com/git/tutorials/what-is-git" target="_blank">here</a>.   
 
 ### Tutorial Project    
 
-We have made a complete tutorial project along the lines of the problem statement. You can find the tutorial [here](Tutorial Project.md) and demo [here](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html).
+We have made a complete tutorial project along the lines of the problem statement. You can find the tutorial [here](Tutorial Project.md) and demo [here](http://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/2016-Purdue-Ironhacks-Tutorial-Project.html).
