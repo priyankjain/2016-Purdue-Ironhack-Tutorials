@@ -58,5 +58,5 @@ If you don't already have an account, please sign up at [Github](https://github.
 
   First command asks git to include all code changes in your repository for the next commit.  
   Second command commits the changes and finalizes them to your _LOCAL_ repository.  
-  Third command uploads the code the _remote_ repository on Github.com, from where we can access you code to grade you.  
+  Third command uploads the code the _remote_ repository on Github.com, from where we can access your code to grade you.  
 

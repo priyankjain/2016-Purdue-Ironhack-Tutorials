@@ -41,7 +41,7 @@ For an advanced tutorial, <a href="https://developers.google.com/maps/documentat
 ### Datasets   
 
    
-The rules require you to use one mandatory dataset [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web) and one dataset from either [Data.gov](https://www.data.gov) or [Open Indy Data Portal](http://data.indy.gov/). You can read more about these datasets here [Datasets.md]   
+The rules require you to use one mandatory dataset [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web) and one dataset from either [Data.gov](https://www.data.gov) or [Open Indy Data Portal](http://data.indy.gov/). You can read more about these datasets [here](Datasets.md)
 
 ### Github
 

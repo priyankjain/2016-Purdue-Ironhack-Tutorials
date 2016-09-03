@@ -126,7 +126,7 @@ We would go through the steps for displaying data in chart form using C3.js. C3.
   >});
   >```
 
-  Our final looks like [this](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/Charts-with-c3js-demo-3.html).
+  Our final chart looks like [this](https://rawgit.com/priyankjain/2016-Purdue-Ironhack-Tutorials/master/Charts-with-c3js-demo-3.html).
 
 ### 5. Putting it all together  
   
