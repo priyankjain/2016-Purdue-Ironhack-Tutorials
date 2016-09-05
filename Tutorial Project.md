@@ -43,24 +43,24 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
 ### Evaluation Criteria   
    
+  1. Technology
+    + Major Errors prevent application from working properly
+	+ Moderate errors impede application from being fully functional
+	+ Minor errors that are cosmetic
 
-  1. Customer requirements
-    + Accuracy of meal guidelines – we will have a panel of 30 users compare their accuracy of 5 random portion amounts from using the application with actual USDA and FDA guidelines
-    + Number of meal alternatives presented
+  2. User requirements
+    + Does the app improve decisions of a user in West Lafayette
+	+ Does it present more decision alternatives
 
-  2. Innovation in functionality
-    + Create a repository and algorithm that combines different types of local and national data to make it simpler for people to make informed and healthy choices. E.g. a map with directions, prices, and a list of food/meal suggestions.
+  3. Information visualization
+    + System Affordance: Does the application offer recognizable elements and interactions that can be understood by the user
+	+ Cognitive Workload: Is the number of alternatives from which the user can choose appropriate?
+	+ Minimal Memory: Would a potential user have to memorize a lot of information to carry out the task? 
 
-  3. Code
-    + Efficiency of code (expert evaluation as well as test with tool for code efficiency)  
-    + App processing time (real time)  
-    + Logic of code structure (expert evaluation - how well can they understand the code)
-    + Stability and reliability of application
-
-  4. User experience
-    + Time for completing the task (click stream analysis)
-    + Usability rating by our experts and user panel
-
+  4. Novelty
+	+ Does the application combine different datasets in a novel way?
+	+ Does the application move beyond standard visualizations?
+	
 
 ### Development Process
 
