@@ -97,7 +97,7 @@ The website should optimize the consumers’ choice of the most cost-efficient v
 
 4. Set up the GitHub
 
-   Using the repository that we provide, connect to Github and upload README.md file with basic information:,
+   Using the repository that we provide, connect to Github and upload README.md file with basic information as per instructions given [here](readme_template/README.md):,
 
 	> Problem addressed: What’s for dinner in Chicago?    
 	> Author: Author Name (authorname@gmail.com)   
